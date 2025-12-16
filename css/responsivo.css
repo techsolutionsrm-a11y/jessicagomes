@@ -1,0 +1,75 @@
+/* especial */
+@media (min-width: 768px) and (max-width: 991px) {
+  footer img {
+    justify-content: center;
+  }
+
+  footer .container p {
+    text-align: center;
+  }
+
+  .redesFooter {
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 989px) {
+  .img-quemsomos img {
+    margin-top: 160px;
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1199px) {
+  .img-quemsomos img {
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .no-mobile-banner {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 869px) {
+  .card-slogan {
+    height: 480px;
+    width: 290px;
+    border-radius: 75.22px;
+    background-color: var(--color-background-header);
+    position: absolute;
+    right: 15px;
+    top: 200px;
+  }
+
+  .img-slogan img {
+    position: absolute;
+    width: 300px;
+    top: 200px;
+    right: 25px;
+    border-radius: 75.22px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 382px) {
+  .testimonial-card p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .testimonial-card p {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 869px) {
+  .card-slogan,
+  .img-slogan img {
+    height: 300px;
+    width: 300px;
+    top: 300px;
+  }
+}

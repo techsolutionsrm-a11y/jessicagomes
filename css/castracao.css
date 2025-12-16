@@ -1,0 +1,227 @@
+.presentation-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.presentation-text{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.benefits h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.benefits-description{
+    text-align: justify;
+}
+
+.benefits-icon{
+    font-size: 20px;
+    color: #3b8b7a;
+    width: 30px;
+    height: 30px;
+}
+
+.benefits-text{
+    margin-bottom: 50px;
+}
+
+.vaccines-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.vaccines-container-title{
+    text-align: center;
+}
+
+.menu-vaccines-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.menu-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    background-color: #3b8b7a;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 20px;
+}
+
+.menu-button:hover {
+    background-color: #1abc9c;
+}
+
+.menu-button.active {
+    background-color: #054235;
+}
+
+.vaccines-card{
+    margin-top: 30px;
+}
+
+.vaccines-icon{
+    color: #054235;
+    margin-bottom: 3px;
+}
+
+.vaccines-title{
+    color: #3b8b7a;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.vaccines-description{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.vaccines-data{
+    text-align: justify;
+    margin-bottom: 30px;    
+}
+
+.vaccines-data-doses, .vaccines-data-reinforcement{
+    margin-bottom: 7px;
+}
+
+.products-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.product {
+    display: none;
+    padding: 10px 0;
+    transition: .5s ease-in-out;
+}
+
+.product:last-child {
+    border-bottom: none;
+}
+
+.product.active {
+    display: block;
+}
+
+.processes-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.processes-text{
+    text-align: justify;
+}
+
+.processes h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.processes-description{
+    text-align: justify;
+    margin-top: 90px;
+}
+
+.processes-icon{
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #3b8b7a;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 12px;
+}
+
+.processes-text-description{
+    margin-bottom: 50px;
+}
+
+.accordion-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.accordion-container h2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.accordion {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.accordion-header span {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.accordion i{
+    color: #3b8b7a;
+}
+
+
+.accordion-body {
+    color: #444;
+    font-size: 14px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity .3s;
+}
+
+.accordion-body.active {
+    height: 100%;
+    opacity: 1;
+    margin-top: 10px;
+    padding: 5px 0px;
+
+}
+
+.arrow {
+    transition: transform .2s linear;
+}
+
+.accordion:has(.active) .arrow {
+    transform: rotate(90deg);
+}
